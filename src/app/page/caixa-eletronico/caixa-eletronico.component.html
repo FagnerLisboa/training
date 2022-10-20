@@ -1,0 +1,20 @@
+<main>
+    <div class="container">
+      <div class="title">FagBank</div>
+      <div class="result" id="valor">
+        {{valor}}
+      </div>
+      <div class="ipt">
+        <input [(ngModel)]="valor" type="text"  name="valor"  placeholder="$ valor">
+      </div>
+      <button (click)="onClickSaldo()" type="button" value="consultarSaldo">Consultar saldo</button>
+      
+      <button  (click)="realizarSaque()" type="button" value="realizarSaque">Saque</button>
+
+      <button (click)="realizarDeposito()" type="button" value="realizarDeposito">Depósito</button>
+      
+      <button  type="button" value="Sair">Sair</button>
+      
+    </div>
+    </main>
+    
