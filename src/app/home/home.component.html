@@ -1,319 +1,374 @@
 <body>
-    <main>
-        <h1>Treinamento</h1>
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingOne">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Agenda
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body"><b>Crie uma agenda que armazena: código da pessoa, numero do telefone e idade. Sua agenda deve possibilitar:</b> <br>
-                    (1) - inserir um contato <br>
-                    (2) - Remover um contato <br>
-                    (3) - Editar um contato <br>
-                    (4) - Buscar um contato pelo código <br>
-                    <a href="agenda">Projeto</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                   Salário
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body"><b>Faça um programa que pergunte o quanto você ganha por horas trabalhadas no mês.
-                    Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontado 11% para o Imposto de Renda,
-                    8% para o INSS e 5% para o sindicato.</b><br>
-                    <br>
-                    <b> O programa deve nos informar: </b><br>
-                    <b>A.</b>salário bruto. <br>
-                    <b>B.</b>quanto pagou ao INSS. <br>
-                    <b>C.</b>quanto pagou ao sindicato. <br>
-                    <b>D.</b>o salário liquido. <br><br>
-
-                    <i>Calcule os descontos e o salário líquido, conforme a tabela abaixo:</i><br><br>
-                      <div class="salario">
-                       + Salário Bruto : R$ <br>
-                       - IR (11%) : R$ <br>
-                       - INSS (8%) : R$ <br>
-                       - Sindicato (5%) : R$ <br>
-                       - Salário Líquido: R$ <br>
-                      </div>
-                    <br>
-                    Obs: Salário Bruto -  Descontos = Salário líquido.
-                    <br>
-                    <a href="salario">Projeto</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="flush-headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  Ler String
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body"><b> Escreva um Programa que leia uma string e, em seguida, imprima a inversa da string lida. </b><br><br>
-                    <b>Exemplo de entrada:</b><br>
-                    <i>Tangamandapio</i> <br><br>
-                    <b>Impressão esperada:</b><br>
-                    <i>oipadnamagnaT</i><br>
-                    <a href="ler-string">Projeto</a>
-                </div>
-              </div>
-            </div>
-
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingFour">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                    Caixa eletrônico
-                  </button>
-                </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body"><b>Faça um programa de caixa eletrônico com as opções:</b><br>
-                    <b>(1)</b>consulta saldo <br>
-                    <b>(2)</b> saque <br>
-                    <b>(3)</b> depósito <br>
-                    <b>(4)</b> sair <br>
-                    <i>O saldo inicial é sempre de R$ 0,00. A cada saque ou depósito atualize o valor do saldo e apresente-o na tela.</i><br>
-                    <a href="caixa-eletronico">Projeto</a>
-                    </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingFive">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                    Relatório do dia
-                  </button>
-                </h2>
-                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Faça um programa que use a função <strong> valorPagamento </strong> para determinar o valor a ser pago por uma prestação de uma conta.
-                     O programa deverá solicitar ao usuário o valor da prestação e o número de dias em atraso e passar estes valores para a função <strong> valorPagamento </strong>,
-                      que calculará o valor a ser pago e devolverá este valor ao programa que a chamou. <br>
-                      <br>
-                      O programa deverá então exibir o valor a ser pago na tela. Após a execução, o programa deverá voltar 
-                      a pedir outro valor de prestação e assim continuar até que seja informado um valor igual a zero para a prestação. 
-                      Neste momento o programa deverá ser encerrado, exibindo o relatório do dia, que conterá a quantidade e o valor total 
-                      de prestações pagas no dia. O cálculo do valor a ser pago é feito da seguinte forma: <br>
-                      <br>
-                      ▫ Para pagamentos sem atraso, cobrar o valor da prestação. <br>
-                      ▫ Quando houver atraso, cobrar 3% de multa, mais 0,1% de juros por dia de atraso. <br>
-                      <a href="relatorio-do-dia">Projeto</a>
-                     </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingSix">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
-                    Somar imposto
-                  </button>
-                </h2>
-                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Faça um programa com uma função chamada <b>somaImposto</b>. A função possui dois parâmetros formais: <b>taxaImposto</b>, 
-                    que é a quantia de imposto sobre vendas expressa em porcentagem, e custo, que é o custo de um item antes do imposto. 
-                    A função “altera” o valor de <b>custo</b> para incluir o imposto sobre vendas. <br>
-                    <a href="somar-imposto">Projeto</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingSeven">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
-                    Mais barato
-                  </button>
-                </h2>
-                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar,
-                     sabendo que a decisão é sempre o mais barato. <br>
-                     <a href="mais-barato">Projeto</a>
-                    </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingEight">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
-                    Ano bissexto
-                  </button>
-                </h2>
-                <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Faça um programa que leia um ano (valor inteiro) e imprima se ele é bissexto ou não. Observação: 
-                    um ano é bissexto se ele é múltiplo de 400, ou se ele é múltiplo de 4 mas não é múltiplo de 100. <br>
-                    <a href="ano-bissexto">Projeto</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingNine">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
-                    Resultado final
-                  </button>
-                </h2>
-                <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Em uma competição de ginástica, cada atleta recebe votos de sete jurados. 
-                    A melhor e a pior nota são eliminadas. A sua nota fica sendo a média dos votos restantes. 
-                    Você deve fazer um programa que receba o nome do ginasta e as notas dos sete jurados alcançadas pelo atleta em sua apresentação 
-                    e depois informe a sua média, conforme a descrição acima informada (retirar o melhor e o pior salto e depois calcular a média com as notas restantes).
-                     As notas não são informadas ordenadas. Um exemplo de saída do programa deve ser conforme o exemplo abaixo: <br>
-                     <br>
-                     <b>Atleta:</b> Aparecido Parente<br> 
-                     Nota: 9.9<br> 
-                     Nota: 7.5<br> 
-                     Nota: 9.5<br> 
-                     Nota: 8.5<br> 
-                     Nota: 9.0<br> 
-                     Nota: 8.5<br> 
-                     Nota: 9.7<br> 
-                     <br> 
-                     <b>Resultado final:</b> 
-                     Atleta: Aparecido Parente<br> 
-                     Melhor nota: 9.9<br> 
-                     Pior nota: 7.5<br> 
-                     Média: 9,04<br> 
-                     <a href="resultado-final">Projeto</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTen">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
-                    Data de nascimento
-                  </button>
-                </h2>
-                <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body"><b>Faça um programa que solicite a data de nascimento (dd/mm/aaaa) do usuário 
-                    e imprima a data com o nome do mês por extenso.</b><br>
-                    <br>
-                    Data de Nascimento: 29/10/1973 <br>
-                    Você nasceu em  29 de Outubro de 1973. <br>
-                    <a href="data-de-nascimento">Projeto</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingEleven">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
-                    dicionário
-                  </button>
-                </h2>
-                <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Crie uma função que receba os valores do nome, idade e e-mail de uma pessoa e 
-                    guarde-os em um dicionário com as chaves ‘nome’, ‘idade’ e ‘email’, respectivamente. 
-                    Sua função deve retornar esse dicionário. <br>
-                    <a href="dicionario">Projeto</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwelve">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
-                   Validação
-                  </button>
-                </h2>
-                <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Faça um programa que pede para o usuário digitar o CPF e verifica se ele é válido.
-                     Para isso, primeiramente o programa deve multiplicar cada um dos 9 primeiros dígitos do CPF pelos números de 10 a 2 e
-                      somar todas as respostas. O resultado deve ser multiplicado por 10 e dividido por 11. 
-                      O resto dessa divisão deve ser igual ao primeiro dígito verificador (10º dígito). Em seguida, o programa deve multiplicar 
-                      cada um dos 10 primeiros dígitos do CPF pelos números de 11 a 2 e repetir o procedimento 
-                      anterior para verificar o segundo dígito verificador. <br>
-                      <br>
-                      <b>Ficou confuso? Vamos a um exemplo prático:</b><br>
-                      <br>
-                      Se o CPF for 286.255.878-87 o programa deve fazer primeiro: <br>
-                      <br>
-                      x = (2*10 + 8*9 + 6*8 + 2*7 + 5*6 + 5*5 + 8*4 + 7*3 + 8*2). <br>
-                      <br>
-                      Em seguida o programa deve testar se x * 10 % 11 == 8 (o décimo número do CPF). <br>
-                      Se sim, o primeiro dígito verificado está correto. <br>
-                      <br>
-                      OBS.: Se o resto da divisão for igual a 10, nós o consideramos como 0. <br>
-                      <br>
-                      Agora, vamos validar o segundo dígito verificador: <br>
-                      <br>
-                      y = (2*11 + 8*10 + 6*9 + 2*8 + 5*7 + 5*6 + 8*5 + 7*4 + 8*3 + 8*2) <br>
-                      <br>
-                      Em seguida, teste se y * 10 % 11 == 7 (em que, 7 é o décimo primeiro número do CPF, <br>
-                      ou seja, o segundo dígito verificador). Se esse teste também deu certo, o CPF é válido! <br>
-                      <a href="validacao">Projeto</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThirteen">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
-                    Cadastro
-                  </button>
-                </h2>
-                <div id="flush-collapseThirteen" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteen" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body"> Faça um programa que fique pedindo uma resposta do usuário, entre 1, 2 e 3. Se o usuário digitar 1, 
-                    o programa deve cadastrar um novo usuário, solicitando nome, idade, e-mail e CPF, guardando esse cadastro num dicionário cuja chave 
-                    será o CPF da pessoa. Quando o usuário digitar 2, o programa deve imprimir os usuários cadastrados; e se o usuário digitar 3, 
-                    o programa deve fechar. <br>
-                    <a href="cadastro">Projeto</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingFourteen">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
-                    validação de senha
-                  </button>
-                </h2>
-                <div id="flush-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFourteen" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Faça um programa de validação de senha. Solicite o nome completo, 
-                    a data de nascimento e uma senha. Realize uma validação na senha, a mesma não pode conter nome, 
-                    sobrenomes e/ou da data de nascimento. Peça uma nova senha até que ela seja válida. <br>
-                    <a href="validacao-de-senha">Projeto</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingFifteen">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseFifteen">
-                    eleições
-                  </button>
-                </h2>
-                <div id="flush-collapseFifteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFifteen" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">As eleições para prefeito da cidade estão se aproximando. Os dados coletados são: 
-                    quantidade de eleitores aptos e o número de votos para cada candidato. Sabe-se que em municípios com mais de 25 mil eleitores, 
-                    é exigido o segundo turno caso o candidato não atinja acima de 50% dos votos válidos. <br>
-                    <br>
-                    Crie um programa que receba os dados, calcule e informe se o candidato foi eleito no primeiro turno, ou se haverá segundo turno. <br>
-                    <a href="eleicoes">Projeto</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingSixteen">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSixteen" aria-expanded="false" aria-controls="flush-collapseSixteen">
-                    Lampada
-                  </button>
-                </h2>
-                <div id="flush-collapseSixteen" class="accordion-collapse collapse" aria-labelledby="flush-headingSixteen" data-bs-parent="#accordionFlushExample">
-                  <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores optio nesciunt eum illum, quas deleniti nihil odit pariatur corporis 
-                    laudantium hic eveniet ipsam mollitia debitis voluptates vero ullam repudiandae rerum! <br>
-                     <a href="lampada">Projeto</a>
-                    </div>
-                </div>
-              </div>
+  <main>
+    <h1>Treinamento</h1>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Agenda
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"><b>Crie uma agenda que armazena: código da pessoa, numero do telefone e idade. Sua
+              agenda deve possibilitar:</b> <br>
+            (1) - inserir um contato <br>
+            (2) - Remover um contato <br>
+            (3) - Editar um contato <br>
+            (4) - Buscar um contato pelo código <br>
+            <a href="agenda">Projeto</a>
           </div>
-    </main>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Salário
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"><b>Faça um programa que pergunte o quanto você ganha por horas trabalhadas no mês.
+              Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontado 11% para o Imposto
+              de Renda,
+              8% para o INSS e 5% para o sindicato.</b><br>
+            <br>
+            <b> O programa deve nos informar: </b><br>
+            <b>A.</b>salário bruto. <br>
+            <b>B.</b>quanto pagou ao INSS. <br>
+            <b>C.</b>quanto pagou ao sindicato. <br>
+            <b>D.</b>o salário liquido. <br><br>
+
+            <i>Calcule os descontos e o salário líquido, conforme a tabela abaixo:</i><br><br>
+            <div class="salario">
+              + Salário Bruto : R$ <br>
+              - IR (11%) : R$ <br>
+              - INSS (8%) : R$ <br>
+              - Sindicato (5%) : R$ <br>
+              - Salário Líquido: R$ <br>
+            </div>
+            <br>
+            Obs: Salário Bruto - Descontos = Salário líquido.
+            <br>
+            <a href="salario">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Ler String
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"><b> Escreva um Programa que leia uma string e, em seguida, imprima a inversa da
+              string lida. </b><br><br>
+            <b>Exemplo de entrada:</b><br>
+            <i>Tangamandapio</i> <br><br>
+            <b>Impressão esperada:</b><br>
+            <i>oipadnamagnaT</i><br>
+            <a href="ler-string">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+            Caixa eletrônico
+          </button>
+        </h2>
+        <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"><b>Faça um programa de caixa eletrônico com as opções:</b><br>
+            <b>(1)</b> consulta saldo <br>
+            <b>(2)</b> saque <br>
+            <b>(3)</b> depósito <br>
+            <b>(4)</b> sair <br>
+            <i>O saldo inicial é sempre de R$ 0,00. A cada saque ou depósito atualize o valor do saldo e apresente-o na
+              tela.</i><br>
+            <a href="caixa-eletronico">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+            Relatório do dia
+          </button>
+        </h2>
+        <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Faça um programa que use a função <strong> valorPagamento </strong> para
+            determinar o valor a ser pago por uma prestação de uma conta.
+            O programa deverá solicitar ao usuário o valor da prestação e o número de dias em atraso e passar estes
+            valores para a função <strong> valorPagamento </strong>,
+            que calculará o valor a ser pago e devolverá este valor ao programa que a chamou. <br>
+            <br>
+            O programa deverá então exibir o valor a ser pago na tela. Após a execução, o programa deverá voltar
+            a pedir outro valor de prestação e assim continuar até que seja informado um valor igual a zero para a
+            prestação.
+            Neste momento o programa deverá ser encerrado, exibindo o relatório do dia, que conterá a quantidade e o
+            valor total
+            de prestações pagas no dia. O cálculo do valor a ser pago é feito da seguinte forma: <br>
+            <br>
+            ▫ Para pagamentos sem atraso, cobrar o valor da prestação. <br>
+            ▫ Quando houver atraso, cobrar 3% de multa, mais 0,1% de juros por dia de atraso. <br>
+            <a href="relatorio-do-dia">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+            Somar imposto
+          </button>
+        </h2>
+        <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Faça um programa com uma função chamada <b>somaImposto</b>. A função possui dois
+            parâmetros formais: <b>taxaImposto</b>,
+            que é a quantia de imposto sobre vendas expressa em porcentagem, e custo, que é o custo de um item antes do
+            imposto.
+            A função “altera” o valor de <b>custo</b> para incluir o imposto sobre vendas. <br>
+            <a href="somar-imposto">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+            Mais barato
+          </button>
+        </h2>
+        <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingSeven"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Faça um programa que pergunte o preço de três produtos e informe qual produto você
+            deve comprar,
+            sabendo que a decisão é sempre o mais barato. <br>
+            <a href="mais-barato">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingEight">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+            Ano bissexto
+          </button>
+        </h2>
+        <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingEight"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Faça um programa que leia um ano (valor inteiro) e imprima se ele é bissexto ou
+            não. Observação:
+            um ano é bissexto se ele é múltiplo de 400, ou se ele é múltiplo de 4 mas não é múltiplo de 100. <br>
+            <a href="ano-bissexto">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingNine">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+            Resultado final
+          </button>
+        </h2>
+        <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingNine"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Em uma competição de ginástica, cada atleta recebe votos de sete jurados.
+            A melhor e a pior nota são eliminadas. A sua nota fica sendo a média dos votos restantes.
+            Você deve fazer um programa que receba o nome do ginasta e as notas dos sete jurados alcançadas pelo atleta
+            em sua apresentação
+            e depois informe a sua média, conforme a descrição acima informada (retirar o melhor e o pior salto e depois
+            calcular a média com as notas restantes).
+            As notas não são informadas ordenadas. Um exemplo de saída do programa deve ser conforme o exemplo abaixo:
+            <br>
+            <br>
+            <b>Atleta:</b> Aparecido Parente<br>
+            Nota: 9.9<br>
+            Nota: 7.5<br>
+            Nota: 9.5<br>
+            Nota: 8.5<br>
+            Nota: 9.0<br>
+            Nota: 8.5<br>
+            Nota: 9.7<br>
+            <br>
+            <b>Resultado final:</b>
+            Atleta: Aparecido Parente<br>
+            Melhor nota: 9.9<br>
+            Pior nota: 7.5<br>
+            Média: 9,04<br>
+            <a href="resultado-final">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+            Data de nascimento
+          </button>
+        </h2>
+        <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingTen"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"><b>Faça um programa que solicite a data de nascimento (dd/mm/aaaa) do usuário
+              e imprima a data com o nome do mês por extenso.</b><br>
+            <br>
+            Data de Nascimento: 29/10/1973 <br>
+            Você nasceu em 29 de Outubro de 1973. <br>
+            <a href="data-de-nascimento">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingEleven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+            dicionário
+          </button>
+        </h2>
+        <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingEleven"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Crie uma função que receba os valores do nome, idade e e-mail de uma pessoa e
+            guarde-os em um dicionário com as chaves ‘nome’, ‘idade’ e ‘email’, respectivamente.
+            Sua função deve retornar esse dicionário. <br>
+            <a href="dicionario">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwelve">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+            Validação
+          </button>
+        </h2>
+        <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingTwelve"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Faça um programa que pede para o usuário digitar o CPF e verifica se ele é válido.
+            Para isso, primeiramente o programa deve multiplicar cada um dos 9 primeiros dígitos do CPF pelos números de
+            10 a 2 e
+            somar todas as respostas. O resultado deve ser multiplicado por 10 e dividido por 11.
+            O resto dessa divisão deve ser igual ao primeiro dígito verificador (10º dígito). Em seguida, o programa
+            deve multiplicar
+            cada um dos 10 primeiros dígitos do CPF pelos números de 11 a 2 e repetir o procedimento
+            anterior para verificar o segundo dígito verificador. <br>
+            <br>
+            <b>Ficou confuso? Vamos a um exemplo prático:</b><br>
+            <br>
+            Se o CPF for 286.255.878-87 o programa deve fazer primeiro: <br>
+            <br>
+            x = (2*10 + 8*9 + 6*8 + 2*7 + 5*6 + 5*5 + 8*4 + 7*3 + 8*2). <br>
+            <br>
+            Em seguida o programa deve testar se x * 10 % 11 == 8 (o décimo número do CPF). <br>
+            Se sim, o primeiro dígito verificado está correto. <br>
+            <br>
+            OBS.: Se o resto da divisão for igual a 10, nós o consideramos como 0. <br>
+            <br>
+            Agora, vamos validar o segundo dígito verificador: <br>
+            <br>
+            y = (2*11 + 8*10 + 6*9 + 2*8 + 5*7 + 5*6 + 8*5 + 7*4 + 8*3 + 8*2) <br>
+            <br>
+            Em seguida, teste se y * 10 % 11 == 7 (em que, 7 é o décimo primeiro número do CPF, <br>
+            ou seja, o segundo dígito verificador). Se esse teste também deu certo, o CPF é válido! <br>
+            <a href="validacao">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThirteen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThirteen" aria-expanded="false" aria-controls="flush-collapseThirteen">
+            Cadastro
+          </button>
+        </h2>
+        <div id="flush-collapseThirteen" class="accordion-collapse collapse" aria-labelledby="flush-headingThirteen"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body"> Faça um programa que fique pedindo uma resposta do usuário, entre 1, 2 e 3. Se o
+            usuário digitar 1,
+            o programa deve cadastrar um novo usuário, solicitando nome, idade, e-mail e CPF, guardando esse cadastro
+            num dicionário cuja chave
+            será o CPF da pessoa. Quando o usuário digitar 2, o programa deve imprimir os usuários cadastrados; e se o
+            usuário digitar 3,
+            o programa deve fechar. <br>
+            <a href="cadastro">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFourteen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFourteen" aria-expanded="false" aria-controls="flush-collapseFourteen">
+            validação de senha
+          </button>
+        </h2>
+        <div id="flush-collapseFourteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFourteen"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Faça um programa de validação de senha. Solicite o nome completo,
+            a data de nascimento e uma senha. Realize uma validação na senha, a mesma não pode conter nome,
+            sobrenomes e/ou da data de nascimento. Peça uma nova senha até que ela seja válida. <br>
+            <a href="validacao-de-senha">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingFifteen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseFifteen" aria-expanded="false" aria-controls="flush-collapseFifteen">
+            eleições
+          </button>
+        </h2>
+        <div id="flush-collapseFifteen" class="accordion-collapse collapse" aria-labelledby="flush-headingFifteen"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">As eleições para prefeito da cidade estão se aproximando. Os dados coletados são:
+            quantidade de eleitores aptos e o número de votos para cada candidato. Sabe-se que em municípios com mais de
+            25 mil eleitores,
+            é exigido o segundo turno caso o candidato não atinja acima de 50% dos votos válidos. <br>
+            <br>
+            Crie um programa que receba os dados, calcule e informe se o candidato foi eleito no primeiro turno, ou se
+            haverá segundo turno. <br>
+            <a href="eleicoes">Projeto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingSixteen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseSixteen" aria-expanded="false" aria-controls="flush-collapseSixteen">
+            Lampada
+          </button>
+        </h2>
+        <div id="flush-collapseSixteen" class="accordion-collapse collapse" aria-labelledby="flush-headingSixteen"
+          data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores optio nesciunt
+            eum illum, quas deleniti nihil odit pariatur corporis
+            laudantium hic eveniet ipsam mollitia debitis voluptates vero ullam repudiandae rerum! <br>
+            <a href="lampada">Projeto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>

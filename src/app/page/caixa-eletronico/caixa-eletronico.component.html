@@ -1,20 +1,23 @@
 <main>
-    <div class="container">
-      <div class="title">FagBank</div>
-      <div class="result" id="valor">
-        {{valor}}
-      </div>
-      <div class="ipt">
-        <input [(ngModel)]="valor" type="text"  name="valor"  placeholder="$ valor">
-      </div>
-      <button (click)="onClickSaldo()" type="button" value="consultarSaldo">Consultar saldo</button>
-      
-      <button  (click)="realizarSaque()" type="button" value="realizarSaque">Saque</button>
-
-      <button (click)="realizarDeposito()" type="button" value="realizarDeposito">Depósito</button>
-      
-      <button  type="button" value="Sair">Sair</button>
-      
+  <div class="container">
+    <div class="title">FagBank</div>
+    <div *ngIf="showSaldo" class="result" id="valor">
+      {{saldo}}
     </div>
-    </main>
-    
+    <div class="ipt">
+      <input [(ngModel)]="valor" type="number" name="valor" placeholder="R$">
+    </div>
+    <div>
+      <button (click)="consultarSaldo()" type="button" value="consultarSaldo">Consultar saldo</button>
+    </div>
+    <div>
+      <button (click)="realizarSaque()" type="button" value="realizarSaque">Saque</button>
+    </div>
+    <div>
+      <button (click)="realizarDeposito()" type="button" value="realizarDeposito">Depósito</button>
+    </div>
+    <!-- <div>
+      <button type="button" value="Sair">Sair</button>
+    </div> -->
+  </div>
+</main>
